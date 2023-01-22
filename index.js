@@ -16,3 +16,6 @@ fetch("https://playentry.org/graphql", {
     }),
     "method": "POST"
 });
+
+alert("글이 올라가졋스빈다. 혹시 안올려지면, 글정인지 욕설이 들어가는지 확인해보세요!");
+location.replace("https://playentry.org/community/entrystory/list?sort=created&term=all");
